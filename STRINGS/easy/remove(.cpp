@@ -7,7 +7,7 @@ public:
         std::string a="";
         int c=0;
 
-        for(int i:s){
+        for(char i:s){
             if(i=='('){
                 if(c>0){
                     a+=i;
